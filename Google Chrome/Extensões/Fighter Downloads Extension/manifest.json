@@ -1,0 +1,15 @@
+{
+  "name": "Extensao do fighter downloads",
+  "description": "extensao do fighter downloads na sua versao 3.0 beta 1,ainda mais fodalhona ; by Aloogle Inc.",
+  "version": "3.0",
+  "background_page": "background.html",
+  "icons": { "128": "icons/icon_128.png" },
+  "permissions": [
+    "tabs" ,"http://fighterdownloads.blogspot.com/"
+  ],
+  "browser_action": {
+    "default_title": "Fighter Downloads",
+    "default_icon": "icons/icon.png",
+    "popup": "popup.html"
+  }
+}

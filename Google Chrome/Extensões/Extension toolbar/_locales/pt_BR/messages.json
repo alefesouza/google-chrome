@@ -1,0 +1,11 @@
+{
+  "chrome_extension_name": {
+    "message": "Botao extensoes"
+  },
+  "chrome_extension_description": {
+    "message": "Acesse suas extensoes por um botao na barra de ferramentas"
+  },
+  "browser_action_title": {
+    "message": "Extensoes"
+  }
+}

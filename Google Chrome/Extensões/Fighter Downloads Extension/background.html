@@ -1,0 +1,36 @@
+<html><head>
+<script>
+
+var Aloogle = {
+	Open: function(what)
+	{
+		switch(what)
+		{
+			case "ir":
+				chrome.tabs.create({url: 'http://fighterdownloads.blogspot.com/'});
+				break;
+			case "novo":
+				chrome.tabs.create({url: 'http://www.blogger.com/post-create.g?blogID=2872085431253328372'});
+				break;
+			case "comentarios":
+				chrome.tabs.create({url: 'http://www.blogger.com/comment-published.g?blogID=2872085431253328372'});
+				break;
+			case "design":
+				chrome.tabs.create({url: 'http://www.blogger.com/rearrange?blogID=2872085431253328372'});
+				break;
+			case "config":
+				chrome.tabs.create({url: 'http://www.blogger.com/blog-options-basic.g?blogID=2872085431253328372'});
+				break;
+			case "extensoes":
+				chrome.tabs.create({url: 'chrome://extensions'});
+				break;
+			case "downloads":
+				chrome.tabs.create({url: 'chrome://downloads'});
+				break;
+		}
+	}
+}
+</script>
+</head>
+<body>
+</body></html>

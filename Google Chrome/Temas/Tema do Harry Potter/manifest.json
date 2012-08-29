@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "name": "Harry Potter Theme by Aloogle",
+  "description": "A Harry Potter theme for Google Chrome",
+  "update_url": "hrrp://aloogle.googlecode.com/svn/trunk/atualizacoes/google_chrome/temas/tema_harry.xml",
+  "theme": {
+    "images" : {
+      "theme_frame" : "imagens/lua.png",
+      "theme_toolbar" : "imagens/logo.jpg",
+      "theme_ntp_background" : "imagens/harry.jpg",
+      "theme_ntp_attribution" : "imagens/Aloogle fodao.png"
+    },
+    "colors" : {
+      "frame" : [0, 0, 255],
+      "toolbar" : [255, 255, 255],
+      "ntp_text" : [0, 0, 255],
+      "ntp_link" : [255, 0, 0],
+      "ntp_section" : [0, 0, 0],
+      "ntp_header" : [0, 0, 0],
+      "tab_text" : [0, 0, 0],
+      "tab_background_text" : [255, 255, 255],
+      "button_background" : [0, 0, 255]
+    },
+    "tints" : {
+      "buttons" : [0.33, 0.5, 0.47]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "bottom"
+    }
+  }
+}

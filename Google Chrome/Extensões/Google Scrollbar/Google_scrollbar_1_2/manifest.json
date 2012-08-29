@@ -1,0 +1,12 @@
+{
+  "name": "Google Scrollbar",
+  "description": "Add in all web sites the scrollbars of the Google Products.",
+  "version": "1.2",
+  "update_url": "http://aloogle.googlecode.com/svn/trunk/atualizacoes/google_chrome/extensoes/google_scrollbar.xml",
+  "icons": { "128": "icone_128.png" },
+  "content_scripts": [ {
+      "css": [ "scrollbar.css" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ]
+  
+}

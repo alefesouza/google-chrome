@@ -1,0 +1,129 @@
+<html><head>
+<script type="text/javascript">
+	var Popup = {
+		Do: function(what, arg) {
+			bg = chrome.extension.getBackgroundPage();
+			switch(what)
+			{
+				case "grab_visible":
+					bg.Aloogle.GrabVisible();
+					window.close();
+					break;
+				case "grab_portion":
+					bg.Aloogle.ShowArea();
+					window.close();
+					break;
+				case "grab_entire":
+					var el = document.getElementById("overlay");
+					el.style.display = "block";
+					bg.Aloogle.GrabEntire(window);
+					break;
+				case "open":
+					bg.Aloogle.Open(arg);
+					window.close();
+					break;
+			}
+		}
+	};
+</script>
+
+<style type="text/css">
+body {
+	font-family:  Arial, "Trebuchet MS", "Lucida Grande", "Verdana", sans-serif;
+	background-color: #000000;
+	font-size: 12px;
+	color: #ffffff;
+	width:225px;
+}
+
+hr {
+	border: 0px;
+	height: 1px;
+	background-color: #0000ff;	
+	color: #ccc;
+}
+
+.menuitem {
+	height:20px;
+	line-height:20px;
+	padding: 2px 4px;
+	white-space:nowrap;
+	vertical-align:middle; 
+}
+
+.menuitem:hover {
+	color: #ffffff;
+	cursor:Pointer;
+	background:url(imagens/preto_real_player.png);
+}
+
+.menuitem img {
+	float:left;
+	margin-top:2px;
+	margin-right:4px;
+}
+
+#overlay {
+	width:100%;
+	height:100%;
+	z-level:999;
+	display:none;
+	background:#ffffff;
+	position:fixed;
+	opacity:0.95;
+	text-align:center;
+}
+#overlay h2 {
+	color:#3aa5f4;
+	
+}
+#message {
+	color:#555555;
+	min-height:50px;
+	font-size:large;
+}
+a {
+	color:#000000;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+
+	<div class="lfloat"><form method="get" id="navSearch" name="navSearch" action="http://www.fighterdownloads.blogspot.com/search/" onsubmit="return Event.__inlineSubmit(this,event)"><div class="uiTypeahead " id="u076316_2"><div class="wrap"><input type="hidden" autocomplete="on" class="hiddenInput"><span class="uiSearchInput textInput"><span><input type="text" class="inputtext  DOMControl_placeholder" accesskey="/" id="q" name="q" onclick="var q = $(&quot;q&quot;);if (q.value == q.getAttribute(&quot;placeholder&quot;)) {q.focus(); return false;}" placeholder="Procurar" autocomplete="on" tabindex="" onfocus="return wait_for_load(this, event, function() {JSCC.get('j4d4189dae5f573e908194203').init([&quot;searchRecorderBasic&quot;]); ;});" spellcheck="false" value="" title=""><span class="hidden_elem"></span></button></span></span></div><div class="uiTypeaheadView hidden_elem" id="u076316_1"></div></div><input alt="Fazer Buscar" id="bt-buscar" name="q" src="imagens/busca.png" tabindex="2" title="Fazer Buscar" type="image"></form></div>
+
+	</div>
+	<div onclick="Popup.Do('open','ir');" class="menuitem">
+		<img src="imagens/fighter_16x16.png"> ir ao Fighter Downloads
+	</div>
+	<hr>
+	<div onclick="Popup.Do('open','novo');" class="menuitem">
+		<img src="imagens/novo_16x16.png"> novo post
+	</div>
+	<div onclick="Popup.Do('open','comentarios');" class="menuitem">
+		<img src="imagens/comentarios_16x16.png"> comentários
+	</div>
+	<div onclick="Popup.Do('open','design');" class="menuitem">
+		<img src="imagens/design_16x16.png"> design do blog
+	</div>
+	<div onclick="Popup.Do('open','config');" class="menuitem">
+		<img src="imagens/config_16x16.png"> configurações
+	</div>
+	</div>
+	<hr>
+	<div onclick="Popup.Do('open','extensoes');" class="menuitem">
+		<img src="imagens/extensoes.png"> suas extensões
+	</div>
+	<div onclick="Popup.Do('open','downloads');" class="menuitem">
+		<img src="imagens/downloads.png"> seus downloads
+	</div>
+
+		<img src="imagens/aloogle_63x16.png">
+
+
+
+</body></html>

@@ -1,0 +1,33 @@
+{
+ "version": "1.0",
+ "name": "Tema do Santos F.C. by Aloogle",
+ "description": "Um tema do Santos Futebol Clube para Google Chrome",
+ "update_url": "http://aloogle.googlecode.com/svn/trunk/atualizacoes/google_chrome/temas/tema_santos.xml",
+ "theme": {
+   "images" : {
+     "theme_frame" : "imagens/logo do santos.jpg",
+     "theme_toolbar" : "imagens/branco.jpg",
+     "theme_ntp_background" : "imagens/santos.jpg",
+     "theme_ntp_attribution" : "imagens/Aloogle fodao.png",
+     "theme_window_control_background" : "imagens/amarelo.jpg"
+   },
+   "colors" : {
+     "frame" : [255, 255, 255],
+     "toolbar" : [255, 255, 255],
+     "tab_text" : [0, 0, 0],
+     "tab_background_text" : [0, 0, 0],
+     "ntp_text" : [0, 0, 255],
+     "ntp_link" : [255, 0, 0],
+     "button_background" : [255, 255, 255],
+     "ntp_section" : [0, 0, 0],
+     "ntp_header" : [0, 0, 0],
+     "bookmark_text" : [0, 0, 0]
+   },
+   "tints" : {
+     "buttons" : [0.33, 0, 0.47]
+   },
+   "properties" : {
+     "ntp_background_alignment" : "bottom"
+   }
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "chrome_extension_name": {
+    "message": "Extension de boton en la barra de herramientas"
+  },
+  "chrome_extension_description": {
+    "message": "Ir a tu extensiones con un boton en la barra de herramientas"
+  },
+  "browser_action_title": {
+    "message": "Extensiones"
+  }
+}

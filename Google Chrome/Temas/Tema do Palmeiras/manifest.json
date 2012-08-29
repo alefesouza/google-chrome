@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "name": "Tema do Palmeiras by Aloogle",
+  "description": "Um tema do Palmeiras para Google Chrome",
+  "update_url": "http://aloogle.googlecode.com/svn/trunk/atualizacoes/google_chrome/temas/tema_palmeiras.xml",
+  "theme": {
+    "images" : {
+      "theme_frame" : "imagens/verde.jpg",
+      "theme_toolbar" : "imagens/super verde.jpg",
+      "theme_ntp_background" : "imagens/palmeiras.png",
+      "theme_ntp_attribution" : "imagens/Aloogle fodao.png",
+      "theme_window_control_background" : "imagens/branco.jpg"
+    },
+    "colors" : {
+      "frame" : [71, 105, 91],
+      "toolbar" : [255, 255, 255],
+      "tab_text" : [255, 255, 255],
+      "tab_background_text" : [0, 0, 0],
+      "ntp_text" : [0, 0, 255],
+      "ntp_link" : [255, 0, 0],
+      "ntp_section" : [18, 132, 11],
+      "button_background" : [255, 255, 255],
+      "ntp_section" : [18, 132, 11],
+      "ntp_header" : [18, 132, 11],
+      "bookmark_text" : [18, 132, 11]
+    },
+    "tints" : {
+      "buttons" : [0.33, 0.5, 0.47]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "bottom"
+    }
+  }
+}

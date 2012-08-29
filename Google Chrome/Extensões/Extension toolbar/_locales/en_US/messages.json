@@ -1,0 +1,11 @@
+{
+  "chrome_extension_name": {
+    "message": "Button of the extensions in toolbar"
+  },
+  "chrome_extension_description": {
+    "message": "Go your extensions with a button in toolbar"
+  },
+  "browser_action_title": {
+    "message": "Extensions"
+  }
+}

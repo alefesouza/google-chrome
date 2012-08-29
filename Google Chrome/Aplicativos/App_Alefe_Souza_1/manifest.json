@@ -1,0 +1,21 @@
+{
+  "name": "Alefe Souza...",
+  "description": "Acessar o blog de Alefe Souza",
+  "version": "1.0",
+  "update_url": "http://aloogle.googlecode.com/svn/trunk/atualizacoes/google_chrome/aplicativos/alefe_souza.xml",
+  "app": {
+    "urls": [
+      "http://www.alefesouza.blogspot.com/"
+    ],
+    "launch": {
+      "web_url": "http://www.alefesouza.blogspot.com/"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}
