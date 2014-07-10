@@ -1,0 +1,18 @@
+{
+  "name": "Desciclop\u00E9dia",
+  "description": "Acessar a Desciclop\u00E9dia, baixe tamb\u00E9m o DescicloApp em http://vales.ca/descicloapp",
+  "version": "1.0",
+  "manifest_version": 2,
+  "update_url": "http://aloogle.googlecode.com/svn/trunk/atualizacoes/google_chrome/aplicativos/desciclopedia.xml",
+  "app": {
+    "urls": [
+      "http://desciclopedia.org/"
+    ],
+    "launch": {
+      "web_url": "http://desciclopedia.org/"
+    }
+  },
+  "icons": {
+    "128": "DesciclopediaLogo_128.png"
+  }
+}
